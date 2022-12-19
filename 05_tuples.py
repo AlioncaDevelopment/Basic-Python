@@ -1,4 +1,3 @@
-
 ### Tuples ###
 
 # Definición
