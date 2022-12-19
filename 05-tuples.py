@@ -8,7 +8,7 @@ my_tupla = tuple();
 my_tupla2 = ();
 
 #añadimos datos
-my_tupla = (36, 1.70, 'Alionca', 'Ignacio')
+my_tupla = (36, 1.70, 'Alionca', 'Ignacio', 'Alionca')
 my_tupla2 = (36, 60, 30)
 
 #pintamos contenido
@@ -24,12 +24,15 @@ print(my_tuple[-1])
 # print(my_tuple[4]) IndexError
 # print(my_tuple[-6]) IndexError
 
-print(my_tuple.count("Brais"))
-print(my_tuple.index("Moure"))
-print(my_tuple.index("Brais"))
+#
+print(my_tuple.count("Alionca"))
+#
+print(my_tuple.index("Ignacio"))
+print(my_tuple.index("Alionca"))
 
+# my_tuple[1] = 1.80 'tuple' El objeto no admite la asignación de elementos
 
-
+#Concatenacion
 
 
 
